@@ -12,9 +12,10 @@ const Hello = () => {
       <div className="Hello">
         <Link to="/photos">
           <button type="button">
-            <span role="img" aria-label="books">
-            📷&nbsp;</span>
-            Photos
+            <span role="img" aria-label="photo">
+              📷&nbsp;
+            </span>
+            Crop a Photo!
           </button>
         </Link>
       </div>

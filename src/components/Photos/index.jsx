@@ -1,8 +1,8 @@
 import React, { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import Cropper from 'react-easy-crop';
 import { readFile, saveCroppedImage } from '../../helpers/images';
-import { Link } from 'react-router-dom';
-import testImage from '../../../assets/full-headshot-2021.jpg';
+// import testImage from '../../../assets/full-headshot-2021.jpg';
 
 function Photos() {
   const [imageSrc, setImageSrc] = useState(null);
@@ -25,9 +25,7 @@ function Photos() {
   };
 
   const handleSave = () => {
-    //first - we want to save the cropped image
     saveCroppedImage(fileName, imageSrc, croppedAreaPixels);
-    //second - we can reset our imageSrc = null
     setImageSrc(null);
     setZoom(1);
     setCrop({ x: 0, y: 0 });
