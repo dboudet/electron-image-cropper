@@ -15,6 +15,6 @@ Run `yarn package`
 
 ![Homepage](https://raw.githubusercontent.com/dboudet/electron-image-cropper/master/assets/screenshot-homepage.png 'Homepage')
 
-![Image Selection](https://raw.githubusercontent.com/dboudet/electron-image-cropper/master/assets/screenshot-homepage.png 'Homepage')
+![Image Selection](https://raw.githubusercontent.com/dboudet/electron-image-cropper/master/assets/screenshot-select.png 'Homepage')
 
-![Cropping Your Image](https://raw.githubusercontent.com/dboudet/electron-image-cropper/master/assets/screenshot-homepage.png 'Homepage')
+![Cropping Your Image](https://raw.githubusercontent.com/dboudet/electron-image-cropper/master/assets/screenshot-crop.png 'Homepage')
